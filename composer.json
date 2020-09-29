@@ -1,4 +1,5 @@
 {
+    "version": "1.0",
     "name": "polvanovv/health-check",
     "description": "Health check bundle",
     "type": "project",
