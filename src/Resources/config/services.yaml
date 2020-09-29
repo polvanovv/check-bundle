@@ -1,0 +1,6 @@
+
+services:
+    polvanovv\HealthCheckBundle\Controller\HelathController:
+        autoconfigure: true
+        
+    
