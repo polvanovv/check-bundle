@@ -7,9 +7,5 @@ services:
         class: polvanovv\HealthCheckBundle\Command\SendDataCommand
         autoconfigure: true
         
-    health_check:
-        senders:
-            - '@sender.service1'
-            - '@sender.service2'
         
     
