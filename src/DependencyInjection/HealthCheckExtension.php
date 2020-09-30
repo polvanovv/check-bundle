@@ -28,7 +28,7 @@ class HealthCheckExtension extends Extension
 
         $commandDefinition = new Definition(SendDataCommand::class);
 
-        foreach ($config['sender'] as $senderId) {
+        foreach ($config['senders'] as $senderId) {
             $commandDefinition->addArgument(new Reference($senderId));
         }
 
