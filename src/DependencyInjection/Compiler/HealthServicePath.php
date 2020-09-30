@@ -1,7 +1,7 @@
 <?php
 
 
-namespace polvanov\HealthCheckBundle\DependencyInjection\Compiler;
+namespace polvanovv\HealthCheckBundle\DependencyInjection\Compiler;
 
 
 use polvanovv\HealthCheckBundle\Command\SendDataCommand;
