@@ -1,9 +1,9 @@
 {
-    "version": "1.0",
     "name": "polvanovv/health-check",
     "description": "Health check bundle",
-    "type": "project",
+    "type": "symfony-bundle",
     "license": "proprietary",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
@@ -42,13 +42,9 @@
         "symfony/polyfill-php70": "*",
         "symfony/polyfill-php56": "*"
     },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
     "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "5.1.*"
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
