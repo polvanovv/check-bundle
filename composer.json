@@ -1,7 +1,7 @@
 {
     "name": "polvanovv/health-check",
     "description": "Health check bundle",
-    "type": "symfony-bundle",
+    "type": "project",
     "license": "proprietary",
     "minimum-stability": "dev",
     "require": {
