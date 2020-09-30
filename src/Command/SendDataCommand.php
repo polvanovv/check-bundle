@@ -4,7 +4,7 @@
 namespace polvanovv\HealthCheckBundle\Command;
 
 
-use polvanovv\HealthCheckBundle\Entity\HealthInterface;
+use polvanovv\HealthCheckBundle\Service\HealthInterface;
 use polvanovv\HealthCheckBundle\Service\HealthSenderInterface;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

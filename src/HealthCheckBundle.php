@@ -5,7 +5,7 @@ namespace polvanovv\HealthCheckBundle;
 
 
 use polvanovv\HealthCheckBundle\DependencyInjection\Compiler\HealthServicePath;
-use polvanovv\HealthCheckBundle\Entity\HealthInterface;
+use polvanovv\HealthCheckBundle\Service\HealthInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -6,7 +6,7 @@ namespace polvanovv\HealthCheckBundle\DependencyInjection\Compiler;
 
 use polvanovv\HealthCheckBundle\Command\SendDataCommand;
 use polvanovv\HealthCheckBundle\Controller\HealthController;
-use polvanovv\HealthCheckBundle\Entity\HealthInterface;
+use polvanovv\HealthCheckBundle\Service\HealthInterface;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Reference;

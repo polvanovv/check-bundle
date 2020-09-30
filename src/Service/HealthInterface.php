@@ -1,8 +1,10 @@
 <?php
 
 
-namespace polvanovv\HealthCheckBundle\Entity;
+namespace polvanovv\HealthCheckBundle\Service;
 
+
+use polvanovv\HealthCheckBundle\Entity\HealthDataInterface;
 
 interface HealthInterface
 {

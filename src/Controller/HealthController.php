@@ -4,7 +4,7 @@
 namespace polvanovv\HealthCheckBundle\Controller;
 
 
-use polvanovv\HealthCheckBundle\Entity\HealthInterface;
+use polvanovv\HealthCheckBundle\Service\HealthInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Routing\Annotation\Route;
