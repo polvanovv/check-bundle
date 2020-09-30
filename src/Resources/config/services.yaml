@@ -1,6 +1,15 @@
 services:
-    health_check:
+    health_check_ui:
         class: polvanovv\HealthCheckBundle\Controller\HelathController
         autoconfigure: true
+        
+    health_check_cli:
+        class: polvanovv\HealthCheckBundle\Command\SendDataCommand
+        autoconfigure: true
+        
+    health_check:
+        senders:
+            - '@sender.service1'
+            - '@sender.service2'
         
     
