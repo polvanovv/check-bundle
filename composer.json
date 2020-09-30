@@ -33,15 +33,6 @@
             "polvanovv\\HealthCheckBundle\\Tests\\": "src"
         }
     },
-    "replace": {
-        "paragonie/random_compat": "2.*",
-        "symfony/polyfill-ctype": "*",
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php72": "*",
-        "symfony/polyfill-php71": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php56": "*"
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
